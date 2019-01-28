@@ -5,3 +5,4 @@ Problem Statement
 Write a program to create histograms for all columns
 2. Check the probability distribution of all variables in mtcars.
 3. Write a program to create boxplot for all variables.
+Answer saved as R Script
