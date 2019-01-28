@@ -1,0 +1,5 @@
+View(mtcars)
+library(purrr)
+library(tidyr)
+library(ggplot2)
+mtcars %>%keep(is.numeric) %>%gather() %>% ggplot(aes(value)) +facet_wrap(~ key, scales = "free") +geom_histogram()
